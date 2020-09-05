@@ -22,7 +22,7 @@ final class ClasseExemplo implements \JsonSerializable
      * @param int $numero
      * @throws \Exception quando algo der errado
      */
-    public function metodoPublico(ClasseExemplo $mensagem, int $numero = 42): void
+    public function umMetodoPublico(ClasseExemplo $mensagem, int $numero = 42): void
     {
         echo 'Executando método público: ' . $mensagem . $numero . PHP_EOL;
     }
