@@ -7,6 +7,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 $reflectionClass = new ReflectionClass(ClasseExemplo::class);
 
 $reflectionMethod = $reflectionClass->getMethod('metodoPublico');
+var_dump($reflectionMethod->getParameters());
 
 $objetoClasseExemplo = $reflectionClass->newInstanceWithoutConstructor();
 
