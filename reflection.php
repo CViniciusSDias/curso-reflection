@@ -6,4 +6,6 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 $reflectionClass = new ReflectionClass(ClasseExemplo::class);
 
-echo $reflectionClass;
+$objetoClasseExemplo = $reflectionClass->newInstanceArgs([1, 2]);
+
+var_dump($objetoClasseExemplo);
