@@ -7,6 +7,7 @@ final class ClasseExemplo implements \JsonSerializable
     /**
      * @Column(type="string", length=255)
      */
+    @@Atributo(22)
     public string $propriedadePublica = 'publica';
     protected string $propriedadeProtegida = 'protegida';
     private string $propriedadePrivada = 'privada';
